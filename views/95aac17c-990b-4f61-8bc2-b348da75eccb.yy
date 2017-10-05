@@ -7,7 +7,8 @@
         "b6e6a858-ee9f-4970-b072-cbdbe5d99f75",
         "7cebde27-8d62-4a6c-b2ca-30b2550ca8a4",
         "7884637e-0bc7-4363-9c45-ebc5b0288bb2",
-        "c276b9c3-0ced-42c3-9284-d472e3849f6b"
+        "c276b9c3-0ced-42c3-9284-d472e3849f6b",
+        "6f9a93ae-ffe1-4f1d-92d7-a134c99d5f6b"
     ],
     "filterType": "GMObject",
     "folderName": "Aliens",
