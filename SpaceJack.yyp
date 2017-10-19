@@ -343,6 +343,25 @@
             }
         },
         {
+            "Key": "5b0c6a88-53c2-470c-8bd7-b9685b6dca45",
+            "Value": {
+                "id": "270bd9b0-23b4-47eb-99ab-507c606b06cb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_galactic_chase\/snd_galactic_chase.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5d920626-5f8b-41b0-9b19-0a3ad093d55e",
             "Value": {
                 "id": "115a9908-f9a3-4a02-978a-224b4dabd23d",
@@ -378,6 +397,25 @@
                 ],
                 "resourcePath": "views\/62df555d-e280-4f26-a2ab-1612f24b0d56.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63c60658-5ac5-4b8e-8833-14a63567b24a",
+            "Value": {
+                "id": "c91eb43f-c053-40d8-97ed-1a67be66b879",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_gold_gryphons\/snd_gold_gryphons.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -894,9 +932,9 @@
             }
         },
         {
-            "Key": "beb66d34-bb8c-4a4c-8437-dac8e07c0b34",
+            "Key": "c0380ae6-4aec-43a7-ad28-d5f936e1d21c",
             "Value": {
-                "id": "607f2251-3f9e-4256-abd6-cb1b63848e49",
+                "id": "702ba4c8-b1cf-4884-b6bb-1c00add1f39a",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -908,7 +946,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/snd_henchman\/snd_henchman.yy",
+                "resourcePath": "sounds\/snd_underground_army\/snd_underground_army.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1138,6 +1176,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7b253b0-4f24-4dba-9af5-1b1977053b59",
+            "Value": {
+                "id": "78d86121-8c21-4397-84d5-7a1b0a6ab292",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_final_sacrifice\/snd_final_sacrifice.yy",
+                "resourceType": "GMSound"
             }
         },
         {

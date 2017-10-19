@@ -1,19 +1,24 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 43C97DE6
-/// @DnDArgument : "code" "/// Globals assigned to the player because it persists.$(13_10)// Score$(13_10)global.player_score = 0;$(13_10)// How many aliens do we have? Determines alien speed. Accessible by all aliens.$(13_10)global.alient_count = 45;$(13_10)// The direction of our aliens.$(13_10)global.left = true;$(13_10)// Is the player allowed to fire?$(13_10)fire = true;$(13_10)// The player's life/health.$(13_10)hearts = 3;$(13_10)// It will take at least twelve seconds between bonus alien spawns.$(13_10)alarm[2] = 360 + random(90);$(13_10)// Plays music.$(13_10)audio_play_sound(snd_power_battle, 10, true);"
-/// Globals assigned to the player because it persists.
-// Score
-global.player_score = 0;
-// How many aliens do we have? Determines alien speed. Accessible by all aliens.
-global.alient_count = 45;
-// The direction of our aliens.
-global.left = true;
-// Is the player allowed to fire?
+/// @DnDArgument : "code" "fire = true;$(13_10)// It will take at least twelve seconds between bonus alien spawns.$(13_10)alarm[2] = 360 + random(90);$(13_10)// Plays music.$(13_10)switch(global.difficulty) {$(13_10)	case 1:		audio_play_sound(snd_power_battle, 10, true);$(13_10)				break;$(13_10)	case 2:		audio_play_sound(snd_power_battle, 10, true);$(13_10)				break;$(13_10)	case 3:		audio_play_sound(snd_galactic_chase, 10, true);$(13_10)				break;$(13_10)	case 4:		audio_play_sound(snd_galactic_chase, 10, true);$(13_10)				break;$(13_10)	case 5:		audio_play_sound(snd_underground_army, 10, true);$(13_10)				break;$(13_10)	case 6:		audio_play_sound(snd_underground_army, 10, true);$(13_10)				break;$(13_10)	default:	audio_play_sound(snd_final_sacrifice, 10, true);$(13_10)				break;$(13_10)}"
 fire = true;
-// The player's life/health.
-hearts = 3;
 // It will take at least twelve seconds between bonus alien spawns.
 alarm[2] = 360 + random(90);
 // Plays music.
-audio_play_sound(snd_power_battle, 10, true);
+switch(global.difficulty) {
+	case 1:		audio_play_sound(snd_power_battle, 10, true);
+				break;
+	case 2:		audio_play_sound(snd_power_battle, 10, true);
+				break;
+	case 3:		audio_play_sound(snd_galactic_chase, 10, true);
+				break;
+	case 4:		audio_play_sound(snd_galactic_chase, 10, true);
+				break;
+	case 5:		audio_play_sound(snd_underground_army, 10, true);
+				break;
+	case 6:		audio_play_sound(snd_underground_army, 10, true);
+				break;
+	default:	audio_play_sound(snd_final_sacrifice, 10, true);
+				break;
+}

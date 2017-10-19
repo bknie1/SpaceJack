@@ -1,8 +1,8 @@
 {
-    "id": "beb66d34-bb8c-4a4c-8437-dac8e07c0b34",
+    "id": "f7b253b0-4f24-4dba-9af5-1b1977053b59",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_henchman",
+    "name": "snd_final_sacrifice",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
